@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{0992710a-ea08-42e4-8240-805e849dc0f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects">
+      <UniqueIdentifier>{9f9c7005-8d84-4545-a559-1d1154ee8977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructs">
+      <UniqueIdentifier>{f1c2661c-ca48-4bf3-8754-1d9e46b722b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{159bf8e9-3a96-4f16-8b8b-d4ac60038d5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lua">
+      <UniqueIdentifier>{d725b842-370f-49fd-bae6-7f19928f299e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CocosTuning">
+      <UniqueIdentifier>{1364b408-8cd3-4858-91a5-2687a8742e05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene&amp;Layer">
+      <UniqueIdentifier>{e813ddfe-ecbe-4f73-85b2-73f70290b445}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="UtilFunctions.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\GamePlayLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\CreateScenes.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\BackgroundLayer.cpp">
+      <Filter>Scene&amp;Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\StageLayer.cpp">
+      <Filter>Scene&amp;Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\StageScene.cpp">
+      <Filter>Scene&amp;Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\IGameObject.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Character.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaStateManager.cpp">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="NonGCSprite.cpp">
+      <Filter>CocosTuning</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Bullet.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Monster.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Stage.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\SelectLayer.cpp">
+      <Filter>Scene&amp;Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\SelectScene.cpp">
+      <Filter>Scene&amp;Layer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilFunctions.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\GamePlayLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\CreateScenes.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Working.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\BackgroundLayer.h">
+      <Filter>Scene&amp;Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\StageLayer.h">
+      <Filter>Scene&amp;Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\StageScene.h">
+      <Filter>Scene&amp;Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\IGameObject.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Const.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterData.h">
+      <Filter>DataStructs</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Character.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Global.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaStateManager.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="NonGCSprite.h">
+      <Filter>CocosTuning</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Bullet.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Monster.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterData.h">
+      <Filter>DataStructs</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDataStruct.h">
+      <Filter>DataStructs</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\BulletData.h">
+      <Filter>DataStructs</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Stage.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\StageData.h">
+      <Filter>DataStructs</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\SelectSceneData.h">
+      <Filter>DataStructs</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\SelectScene.h">
+      <Filter>Scene&amp;Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\SelectLayer.h">
+      <Filter>Scene&amp;Layer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
